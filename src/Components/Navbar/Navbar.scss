@@ -1,0 +1,33 @@
+@import "../../index.scss";
+
+.navbar {
+  background: $mainBlue;
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
+}
+
+.navbar img {
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0.5rem 0.5rem 0 0.5rem;
+  text-decoration: none;
+  color: $mainWhite;
+  transition: all 0.2s ease;
+  border: black;
+}
+
+.active {
+  color: $mainRed;
+}

@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Variables */
+// Colors
+$mainBlack: #080708;
+$mainWhite: #f2f7f2;
+$mainBlue: #3772ff;
+$mainRed: #df2935;
+$mainGrey: #eaecee;
+// Transition
+$mainTransition: all 0.2s linear;
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: $mainWhite;
+  color: $mainBlack;
+}
